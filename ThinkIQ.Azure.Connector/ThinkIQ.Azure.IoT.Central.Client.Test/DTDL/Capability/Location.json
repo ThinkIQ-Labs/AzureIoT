@@ -1,0 +1,10 @@
+﻿{
+  "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:Location;1",
+  "@type": [
+    "Telemetry",
+    "Location"
+  ],
+  "displayName": "Location",
+  "name": "Location",
+  "schema": "geopoint"
+}

@@ -1,0 +1,11 @@
+﻿{
+  "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:ContentsTemperature;1",
+  "@type": [
+    "Telemetry",
+    "Temperature"
+  ],
+  "displayName": "Contents temperature",
+  "name": "ContentsTemperature",
+  "schema": "double",
+  "unit": "degreeCelsius"
+}

@@ -1,0 +1,8 @@
+﻿{
+    "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckID;1",
+    "@type": "Property",
+    "displayName": "Truck ID",
+    "name": "TruckID",
+    "schema": "string",
+    "writable": false
+}

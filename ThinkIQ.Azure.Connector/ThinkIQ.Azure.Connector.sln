@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkIQ.Azure.IoT.Central.Client", "ThinkIQ.Azure.IoT.Central.Client\ThinkIQ.Azure.IoT.Central.Client.csproj", "{1C8F81D6-0ADA-483E-80AD-CF1B7F12583B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkIQ.Azure.ConnectorService", "ThinkIQ.Azure.ConnectorService\ThinkIQ.Azure.ConnectorService.csproj", "{CFD032E1-BC0F-4DC6-AC8E-4AAFE8F087BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkIQ.Azure.IoT.Connector", "ThinkIQ.Azure.IoT.Connector\ThinkIQ.Azure.IoT.Connector.csproj", "{8D897AA9-FC6B-47A1-800D-11E6256E37B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkIQ.Azure.Connector.Utils", "ThinkIQ.Azure.Connector.Utils\ThinkIQ.Azure.Connector.Utils.csproj", "{E8503E59-EB7A-4640-9878-D60D12587688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThinkIQ.Azure.IoT.Central.Client.Test", "ThinkIQ.Azure.IoT.Central.Client.Test\ThinkIQ.Azure.IoT.Central.Client.Test.csproj", "{C4EE2E43-957A-4CB0-96EF-ECB273494EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinkIQ.DataAccess", "ThinkIQ.DataAccess\ThinkIQ.DataAccess.csproj", "{E0F77149-F421-4A08-8395-25B60DB6EF88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C8F81D6-0ADA-483E-80AD-CF1B7F12583B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8F81D6-0ADA-483E-80AD-CF1B7F12583B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8F81D6-0ADA-483E-80AD-CF1B7F12583B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8F81D6-0ADA-483E-80AD-CF1B7F12583B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD032E1-BC0F-4DC6-AC8E-4AAFE8F087BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD032E1-BC0F-4DC6-AC8E-4AAFE8F087BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD032E1-BC0F-4DC6-AC8E-4AAFE8F087BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD032E1-BC0F-4DC6-AC8E-4AAFE8F087BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D897AA9-FC6B-47A1-800D-11E6256E37B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D897AA9-FC6B-47A1-800D-11E6256E37B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D897AA9-FC6B-47A1-800D-11E6256E37B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D897AA9-FC6B-47A1-800D-11E6256E37B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8503E59-EB7A-4640-9878-D60D12587688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8503E59-EB7A-4640-9878-D60D12587688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8503E59-EB7A-4640-9878-D60D12587688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8503E59-EB7A-4640-9878-D60D12587688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EE2E43-957A-4CB0-96EF-ECB273494EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EE2E43-957A-4CB0-96EF-ECB273494EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EE2E43-957A-4CB0-96EF-ECB273494EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EE2E43-957A-4CB0-96EF-ECB273494EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F77149-F421-4A08-8395-25B60DB6EF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F77149-F421-4A08-8395-25B60DB6EF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F77149-F421-4A08-8395-25B60DB6EF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F77149-F421-4A08-8395-25B60DB6EF88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1DC6C9B-D0A2-4B7C-BD72-A16F7BFDAE7E}
+	EndGlobalSection
+EndGlobal

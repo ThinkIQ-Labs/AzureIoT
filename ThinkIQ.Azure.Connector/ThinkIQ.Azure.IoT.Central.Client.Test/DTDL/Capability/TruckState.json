@@ -1,0 +1,52 @@
+﻿{
+  "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState;1",
+  "@type": [
+    "Telemetry",
+    "State"
+  ],
+  "displayName": "Truck state",
+  "name": "TruckState",
+  "schema": {
+    "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema;1",
+    "@type": "Enum",
+    "enumValues": [
+      {
+        "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema:ready;1",
+        "displayName": "ready",
+        "enumValue": "ready",
+        "name": "ready"
+      },
+      {
+        "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema:enroute;1",
+        "displayName": "enroute",
+        "enumValue": "enroute",
+        "name": "enroute"
+      },
+      {
+        "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema:delivering;1",
+        "displayName": "delivering",
+        "enumValue": "delivering",
+        "name": "delivering"
+      },
+      {
+        "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema:returning;1",
+        "displayName": "returning",
+        "enumValue": "returning",
+        "name": "returning"
+      },
+      {
+        "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema:loading;1",
+        "displayName": "loading",
+        "enumValue": "loading",
+        "name": "loading"
+      },
+      {
+        "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema:dumping;1",
+        "displayName": "dumping",
+        "enumValue": "dumping",
+        "name": "dumping"
+      }
+    ],
+    "valueSchema": "string"
+  }
+}

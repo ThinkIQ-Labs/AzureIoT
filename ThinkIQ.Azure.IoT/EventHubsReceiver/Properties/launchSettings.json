@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EventHubsReceiver": {
+      "commandName": "Project",
+      "commandLineArgs": "HostName=ThaiHelloIoTHub.azure-devices.net;SharedAccessKeyName=***"
+    }
+  }
+}

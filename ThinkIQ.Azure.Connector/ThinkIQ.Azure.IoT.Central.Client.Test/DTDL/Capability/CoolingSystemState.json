@@ -1,0 +1,34 @@
+﻿  {
+    "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:CoolingSystemState;1",
+    "@type": [
+      "Telemetry",
+      "State"
+    ],
+    "displayName": "Cooling system state",
+    "name": "CoolingSystemState",
+    "schema": {
+      "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:CoolingSystemState:schema;1",
+      "@type": "Enum",
+      "enumValues": [
+        {
+          "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:CoolingSystemState:schema:on;1",
+          "displayName": "on",
+          "enumValue": "on",
+          "name": "on"
+        },
+        {
+          "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:CoolingSystemState:schema:off;1",
+          "displayName": "off",
+          "enumValue": "off",
+          "name": "off"
+        },
+        {
+          "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:CoolingSystemState:schema:failed;1",
+          "displayName": "failed",
+          "enumValue": "failed",
+          "name": "failed"
+        }
+      ],
+      "valueSchema": "string"
+    }
+  }

@@ -1,0 +1,34 @@
+﻿{
+          "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:ContentsState;1",
+          "@type": [
+            "Telemetry",
+            "State"
+          ],
+          "displayName": "Contents state",
+          "name": "ContentsState",
+          "schema": {
+            "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:ContentsState:schema;1",
+            "@type": "Enum",
+            "enumValues": [
+              {
+                "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:ContentsState:schema:empty;1",
+                "displayName": "empty",
+                "enumValue": "empty",
+                "name": "empty"
+              },
+              {
+                "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:ContentsState:schema:full;1",
+                "displayName": "full",
+                "enumValue": "full",
+                "name": "full"
+              },
+              {
+                "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:ContentsState:schema:melting;1",
+                "displayName": "melting",
+                "enumValue": "melting",
+                "name": "melting"
+              }
+            ],
+            "valueSchema": "string"
+          }
+        }

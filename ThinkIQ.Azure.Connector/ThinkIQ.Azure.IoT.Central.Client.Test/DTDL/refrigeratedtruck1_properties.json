@@ -1,0 +1,14 @@
+{
+  "TruckID": "Truck number 1",
+  "$metadata": {
+    "TruckID": {
+      "lastUpdateTime": "2021-12-07T19:13:23.7724892Z"
+    },
+    "OptimalTemperature": {
+      "desiredValue": -8,
+      "desiredVersion": 2,
+      "lastUpdateTime": "2021-09-09T22:59:10.9724225Z"
+    }
+  },
+  "OptimalTemperature": -8
+}

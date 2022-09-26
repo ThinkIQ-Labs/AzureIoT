@@ -1,0 +1,12 @@
+﻿{
+  "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:OptimalTemperature;1",
+  "@type": [
+    "Property",
+    "Temperature"
+  ],
+  "displayName": "Optimal Temperature",
+  "name": "OptimalTemperature",
+  "schema": "double",
+  "unit": "degreeCelsius",
+  "writable": true
+}

@@ -1,0 +1,13 @@
+﻿{
+  "value": [
+    {
+      "id": "RefrigeratedTruck1",
+      "etag": "eyJoZWFkZXIiOiJcIjYzMDAxMGU2LTAwMDAtMDcwMC0wMDAwLTYxM2E5MWJlMDAwMFwiIn0",
+      "displayName": "RefrigeratedTruck - 1",
+      "simulated": false,
+      "provisioned": true,
+      "template": "dtmi:modelDefinition:oglodztrh:pkloiq6nto",
+      "enabled": true
+    }
+  ]
+}

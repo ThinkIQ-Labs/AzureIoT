@@ -1,0 +1,7 @@
+﻿{
+  "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:Recall;1",
+  "@type": "Command",
+  "commandType": "synchronous",
+  "displayName": "Recall",
+  "name": "Recall"
+}

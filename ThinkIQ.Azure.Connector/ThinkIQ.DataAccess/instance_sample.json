@@ -1,0 +1,22 @@
+﻿[
+  {
+    "relative_name": "refrigeratedtruck1",
+    "display_name": "RefrigeratedTruck - 1",
+    "description": null,
+    "document": { "etag": "eyJoZWFkZXIiOiJcImM2MDBiY2QwLTAwMDAtMDcwMC0wMDAwLTYxZjM4MDAxMDAwMFwiIn0" },
+    "fqn": [ "azure", "refrigeratedtruck1" ],
+    "type_fqn": [ "local_library", "dtmi:modeldefinition:oglodztrh:pkloiq6nto" ],
+    "attributes": [
+      {
+        "relative_name": "truckid",
+        "fqn": [ "azure", "refrigeratedtruck1", "truckid" ],
+        "value": "Truck number 1"
+      },
+      {
+        "relative_name": "optimaltemperature",
+        "fqn": [ "azure", "refrigeratedtruck1", "optimaltemperature" ],
+        "value": -10
+      }
+    ]
+  }
+]

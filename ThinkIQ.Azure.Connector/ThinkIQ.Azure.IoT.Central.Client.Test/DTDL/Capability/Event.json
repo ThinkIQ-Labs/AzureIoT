@@ -1,0 +1,12 @@
+﻿{
+  "@id": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:Event;1",
+  "@type": [
+    "Telemetry",
+    "Event",
+    "EventValue"
+  ],
+  "displayName": "Event",
+  "name": "Event",
+  "schema": "string",
+  "severity": "information"
+}

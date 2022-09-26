@@ -1,0 +1,190 @@
+﻿{
+  "meta": {
+    "file_version": "1.0.4"
+  },
+  "enumeration_types": [
+    {
+      "fqn": [
+        "local_library",
+        "dtmi:thinkrefrigeratedtrucks:refrigeratedtruck6gg:contentsstate:schema;1"
+      ],
+      "relative_name": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:ContentsState:schema;1",
+      "enumeration_names": [
+        "empty",
+        "full",
+        "melting"
+      ],
+      "default_enumeration_values": [
+        "empty",
+        "full",
+        "melting"
+      ]
+    },
+    {
+      "fqn": [
+        "local_library",
+        "dtmi:thinkrefrigeratedtrucks:refrigeratedtruck6gg:coolingsystemstate:schema;1"
+      ],
+      "relative_name": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:CoolingSystemState:schema;1",
+      "enumeration_names": [
+        "on",
+        "off",
+        "failed"
+      ],
+      "default_enumeration_values": [
+        "on",
+        "off",
+        "failed"
+      ]
+    },
+    {
+      "fqn": [
+        "local_library",
+        "dtmi:thinkrefrigeratedtrucks:refrigeratedtruck6gg:truckstate:schema;1"
+      ],
+      "relative_name": "dtmi:thinkRefrigeratedTrucks:RefrigeratedTruck6gg:TruckState:schema;1",
+      "enumeration_names": [
+        "ready",
+        "enroute",
+        "delivering",
+        "returning",
+        "loading",
+        "dumping"
+      ],
+      "default_enumeration_values": [
+        "ready",
+        "enroute",
+        "delivering",
+        "returning",
+        "loading",
+        "dumping"
+      ]
+    }
+  ],
+  "equipment_types": [
+    {
+      "fqn": [
+        "local_library",
+        "dtmi:modeldefinition:oglodztrh:pkloiq6nto"
+      ],
+      "relative_name": "dtmi:modelDefinition:oglodztrh:pkloiq6nto",
+      "display_name": "RefrigeratedTruck",
+      "description": null,
+      "document": {
+        "etag": "\"~//9fUUtp5Bhg1xq9wUyu5a1XWlZesTbrg6HbaYJMt0o=\""
+      },
+      "attributes": [
+        {
+          "relative_name": "contentstemperature",
+          "display_name": "Contents temperature",
+          "description": null,
+          "data_type": "float",
+          "source_category": "dynamic",
+          "default_measurement_unit_fqn": [
+            "thinkiq_base_library",
+            "celsius"
+          ],
+          "enumeration_type_fqn": null,
+          "default_enumeration_values": null
+        },
+        {
+          "relative_name": "contentsstate",
+          "display_name": "Contents state",
+          "description": null,
+          "data_type": "enumeration",
+          "source_category": "dynamic",
+          "default_measurement_unit_fqn": null,
+          "enumeration_type_fqn": [
+            "local_library",
+            "dtmi:thinkrefrigeratedtrucks:refrigeratedtruck6gg:contentsstate:schema;1"
+          ],
+          "default_enumeration_values": [
+            "empty",
+            "full",
+            "melting"
+          ]
+        },
+        {
+          "relative_name": "coolingsystemstate",
+          "display_name": "Cooling system state",
+          "description": null,
+          "data_type": "enumeration",
+          "source_category": "dynamic",
+          "default_measurement_unit_fqn": null,
+          "enumeration_type_fqn": [
+            "local_library",
+            "dtmi:thinkrefrigeratedtrucks:refrigeratedtruck6gg:coolingsystemstate:schema;1"
+          ],
+          "default_enumeration_values": [
+            "on",
+            "off",
+            "failed"
+          ]
+        },
+        {
+          "relative_name": "truckstate",
+          "display_name": "Truck state",
+          "description": null,
+          "data_type": "enumeration",
+          "source_category": "dynamic",
+          "default_measurement_unit_fqn": null,
+          "enumeration_type_fqn": [
+            "local_library",
+            "dtmi:thinkrefrigeratedtrucks:refrigeratedtruck6gg:truckstate:schema;1"
+          ],
+          "default_enumeration_values": [
+            "ready",
+            "enroute",
+            "delivering",
+            "returning",
+            "loading",
+            "dumping"
+          ]
+        },
+        {
+          "relative_name": "event",
+          "display_name": "Event",
+          "description": null,
+          "data_type": "string",
+          "source_category": "dynamic",
+          "default_measurement_unit_fqn": null,
+          "enumeration_type_fqn": null,
+          "default_enumeration_values": null
+        },
+        {
+          "relative_name": "location",
+          "display_name": "Location",
+          "description": null,
+          "data_type": "geopoint",
+          "source_category": "dynamic",
+          "default_measurement_unit_fqn": null,
+          "enumeration_type_fqn": null,
+          "default_enumeration_values": null
+        },
+        {
+          "relative_name": "truckid",
+          "display_name": "Truck ID",
+          "description": null,
+          "data_type": "string",
+          "source_category": "config",
+          "default_measurement_unit_fqn": null,
+          "enumeration_type_fqn": null,
+          "default_enumeration_values": null
+        },
+        {
+          "relative_name": "optimaltemperature",
+          "display_name": "Optimal Temperature",
+          "description": null,
+          "data_type": "float",
+          "source_category": "config",
+          "default_measurement_unit_fqn": [
+            "thinkiq_base_library",
+            "celsius"
+          ],
+          "enumeration_type_fqn": null,
+          "default_enumeration_values": null
+        }
+      ]
+    }
+  ]
+}
