@@ -19,3 +19,6 @@ Azure IoT Devices integrated with SMIP will get access to all the relevant servi
 
 
 
+## Development Tools and Environment ##
+
+This project is written in C# using Visual Studio 2019, .NET Standard 2.1 and .NET Core 3.1. It also requires access to Azure IoT Central.
