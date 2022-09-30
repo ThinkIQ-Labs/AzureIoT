@@ -14,12 +14,12 @@ There is currently a divergence between IoT suppliers while the users are lookin
 ![image](https://user-images.githubusercontent.com/114267160/193169026-142a5f90-3534-4f81-a83e-524f7099173b.png)
 
 **Simulating Azure IoT Devices** <br> 
-- To demo a fictitious trucking company that operates refrigerated trucks, created a utility to simulate the trucks (on apps.azureiotcentral.com)
+- To demo a fictitious trucking company that operates refrigerated trucks, this repo contains a utility to simulate the trucks (on apps.azureiotcentral.com)
    - Trucks (Devices) have optimal temperature, geo-location, states, and command properties 
-- Azure IoT Central could also export the data, which would store the data on Azure Event Hub
+- Azure IoT Central can also export the data, which would be stored the data on Azure Event Hub
 
 **Connector** <br> 
-- A connector was built and  on a SMIP test system.
+- A connector was built and on a SMIP test system. 
 - When running, the connector automatically detects the connection to Azure IoT Central. 
 - Running the connector would connect the trucks (Azure IoT devices) to Azure IoT Central and begin sending truck state, cooling system state, content state, content temperature, location, and events.
 
