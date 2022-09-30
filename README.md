@@ -19,15 +19,20 @@ There is currently a divergence between IoT suppliers while the users are lookin
 - Azure IoT Central can also export the data, which would be stored the data on Azure Event Hub
 
 **Connector** <br> 
-- A connector was built and on a SMIP test system. 
+- A connector was built and on a SMIP test system. It is located in the ThinkIQ.Azure.Connector
 - When running, the connector automatically detects the connection to Azure IoT Central. 
-- Running the connector would connect the trucks (Azure IoT devices) to Azure IoT Central and begin sending truck state, cooling system state, content state, content temperature, location, and events.
+- Running the connector will connect the trucks (Azure IoT devices) to Azure IoT Central and begin sending truck state, cooling system state, content state, content temperature, location, and events.
 
-**Reading from Azure IoT Central and Writing to SMIP**
-- Creates a Library to store the objects
-- Takes the Device Templates (from Azure IoT) and creates Equipment Types
-- Reads the Trucks and creates instances of Trucks (as Equipment) on SMIP
-- Detects and imports Trailers as composite equipment 
+**Reading from Azure IoT Central and Writing to ThinkIQ Platform/CESMII SMIP**
+- Within the Platform/SMIP, a Library is created to store the objects
+- Device Templates (from Azure IoT) are used to create Equipment Types
+- The Trucks are created as instances of Trucks (as Equipment) on Platform/SMIP
+- Trailers are created as composite equipment
+- Data from Azure Event Hub is written to the Platform/SMIP
+   - Truck Content Temperature is written as a attribute (float) on the Truck trip and is historized into the time-series store on the Platform/SMIP
+   - Telemetry populates the Geo-Location attribute
+   - Truck State populates State attribute
+- Any configuration change on an Azure IoT device (e.g. truck) will be updated on the Platform/SMIP
 
 
 
