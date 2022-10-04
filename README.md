@@ -43,4 +43,10 @@ There is currently a divergence between IoT suppliers while the users are lookin
 
 This project is written in C# using Visual Studio 2019, .NET Standard 2.1 and .NET Core 3.1. It also requires access to Azure IoT Central.
 
+At this time, this project can only run on an instance of the CESMII SMIP or a licensed ThinkIQ Manufacturing Platform product (https://thinkiq.com/why-thinkiq/products/) because it requires connection to the underlying framework and database of those products.
+
+
+
+
+
 
